@@ -9,16 +9,18 @@ function App() {
   const switchTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
-  }
+  };
 
   return (
     <div className="app" data-theme={theme}>
       <div className="login">
+        <h2>Space tube 420</h2>
         <h1>Welcome</h1>
-        <h5>ˈwel-kəm</h5>
+        <h5>[ ˈwel-kəm ]</h5>
         <div className="container">
           <div className="top">
-            <i className="fab fa-apple"></i>
+            <i className="fab fa-linkedin"></i>
+            <i className="fab  fa-paypal"></i>
             <i className="fab fa-facebook-square"></i>
             <i className="fab fa-twitter-square"></i>
           </div>
