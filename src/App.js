@@ -14,7 +14,8 @@ function App() {
   return (
     <div className="app" data-theme={theme}>
       <div className="login">
-        <h1> Login</h1>
+        <h1>Welcome</h1>
+        <h5>ˈwel-kəm</h5>
         <div className="container">
           <div className="top">
             <i className="fab fa-apple"></i>
@@ -35,7 +36,7 @@ function App() {
               <input type="checkbox" />
               <p>Remember me</p>
             </div>
-            <button> Log in</button>
+            <button>Log in</button>
           </form>
 
           <div className="bottom">
@@ -45,7 +46,6 @@ function App() {
           <p className="create">Create Account</p>
         </div>
         <div className="theme-toggle">
-          {theme === "light" ? <h4>Light Theme</h4> : <h4>Dark Theme</h4>}
           {theme === "light" ? (
             <i onClick={switchTheme} class="fas fa-toggle-on"></i>
           ) : (
